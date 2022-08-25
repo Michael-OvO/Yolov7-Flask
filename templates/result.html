@@ -21,21 +21,25 @@
     <title>Image Prediction using PyTorch</title>
   </head>
   <body class="text-center">
-    <form class="form-signin card" method=post enctype=multipart/form-data>
+    <form class="form-signin card_res mb-6" method=post enctype=multipart/form-data>
       <img class="mb-4" src="https://avatars.githubusercontent.com/u/85395001?v=4" width="120" style="border-radius:50%">
         <h1 class="h3 mb-3 font-weight-normal">Prediction:</h1>
-          <img class="mb-4 center_img" src= {{ url_for('static', filename= result_image ) }} alt="User_Image" width="100">
-
-          <button class="btn"> Test Another Image </button>
+          <img class = "img-fluid"src= {{ url_for('static', filename= result_image ) }} alt="User_Image" max-width="100%" height="auto">
+ 
+          <button class="btn mb-4"> Test Another Image </button>
           <p class="mt-5 mb-3 text-muted">Built using Pytorh and Flask, redesigned by Michael</p>
     </form>
+ 
 
     <script src="//code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="/static/script.js"></script>
-    
-  <p>The image is saved in static/image0.jpg. Note that after an new inference, the result from the last run will be erased.</p>
+
+  <div class="alert alert-warning" role="alert">
+    The image is saved in static/image0.jpg. Note that after an new inference, the result from the last run will be erased.
+  </div>
+  <div class="alert alert-success" role="alert"> Running with model: {{ model_name }} </div>
   </body>
 
   <!-- Github Ribbon Start-->

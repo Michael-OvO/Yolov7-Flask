@@ -22,17 +22,17 @@ https://github.com/Michael-OvO/Burn-Detection-Classification
 
 ## Installation & Usage: 
 
-![](./figures/Flask_webapp_view2.png)
-
 ![](./figures/Flask_webapp_view3.png)
+
+![](./figures/Flask_webapp_view2.png)
 
 To run this, please make sure you follow the following steps:
 
 a trained Yolov7 model (or you can also use the official pretrained yolov7 models), they can be downloaded [here](https://github.com/WongKinYiu/yolov7/releases). 
 
-Once you have downloaded files, proceed to the next step. The feature of this web app is that it does not require a specific model name, as I have written code to directly search for the model file that is inside this directory (so you do not need to modify anything and just run it). **But do note that please just put one model file into your directory a single time, or else the code will not run properly.** 
+Once you have downloaded files, proceed to the next step. The feature of this web app is that it does not require a specific model name, as I have written code to directly search for the model file that is inside this directory (so you do not need to modify anything and just run it). **But do note that please just put one model file into your directory a single time, or else the code will not run properly.**  - the green bar on top of the page will display which model is currently being inferenced on your machine. 
 
-Make sure you have met the following requirements:
+Make sure you have met the following requirements:referenced
 
 \- PyTorch >= 1.6
 
@@ -345,7 +345,7 @@ Then, simply control + click on the address will bring you to the flask app.
 
 The original yolov7 pretrained weights was trained on MS COCO dataset, so it could recognize a dog:
 
-![](./figures/prediction.png)
+![](./figures/flask_webapp_view2.png)
 
 Have fun using this framework!
 

@@ -100,8 +100,28 @@ button {
   box-sizing: border-box;
   width: 100%;
   max-width: 500px;
-  height:800px;
+  height:550px;
   padding: 50px;
+  border-radius: 30px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+ }
+
+ .card_res{
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+  height:800px;
+  padding: 25px;
   border-radius: 30px;
   position: absolute;
   top:0;
@@ -121,14 +141,16 @@ button {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1em 2.5em;
-  display: inline-block;
   border-radius: 6em;
+  align-items: center!important;
   transition: all .2s;
   border: none;
   font-family: inherit;
   font-weight: 500;
   color: black;
   background-color: white;
+  margin-top: 75px;
+  justify-content: center;
  }
  
  .btn:hover {
