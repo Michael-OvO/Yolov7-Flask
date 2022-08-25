@@ -32,7 +32,7 @@ a trained Yolov7 model (or you can also use the official pretrained yolov7 model
 
 Once you have downloaded files, proceed to the next step. The feature of this web app is that it does not require a specific model name, as I have written code to directly search for the model file that is inside this directory (so you do not need to modify anything and just run it). **But do note that please just put one model file into your directory a single time, or else the code will not run properly.**  - the green bar on top of the page will display which model is currently being inferenced on your machine. 
 
-Make sure you have met the following requirements:referenced
+Make sure you have met the following requirements:
 
 \- PyTorch >= 1.6
 
