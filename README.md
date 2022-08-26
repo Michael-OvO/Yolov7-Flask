@@ -345,7 +345,7 @@ Then, simply control + click on the address will bring you to the flask app.
 
 The original yolov7 pretrained weights was trained on MS COCO dataset, so it could recognize a dog:
 
-![](./figures/flask_webapp_view2.png)
+![](./figures/Flask_webapp_view2.png)
 
 Have fun using this framework!
 
