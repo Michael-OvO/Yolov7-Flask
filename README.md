@@ -349,6 +349,15 @@ The original yolov7 pretrained weights was trained on MS COCO dataset, so it cou
 
 Have fun using this framework!
 
+## Todos:
+
+- [x] Basic Functionalities and CSS layout
+- [x] Model Indicator & Automatically search for model weights
+- [ ] Support for video
+- [ ] Support for webcam 
+
+(If there are requests to add these 2 features please let me know. I will consider adding it)
+
 ## Acknowledgment:
 
 This framework was rewritten from this repo:

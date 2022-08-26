@@ -48,4 +48,13 @@ def predict():
         return render_template('result.html',result_image = filename,model_name = model_name)
 
     return render_template('index.html')
-   
+@app.route('/detect', methods=['GET', 'POST'])
+def handle_video():
+    # some code to be implemented later
+    pass
+
+@app.route('/webcam', methods=['GET', 'POST'])
+def web_cam():
+    # some code to be implemented later
+    pass
+
