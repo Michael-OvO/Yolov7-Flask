@@ -20,6 +20,8 @@ I developed this API for the purpose of deploying my own Yolov7 model, which is 
 
 https://github.com/Michael-OvO/Burn-Detection-Classification
 
+![Alt](https://repobeats.axiom.co/api/embed/a081b19ca4f52df2a34a35438450f603046c73fb.svg "Repobeats analytics image")
+
 ## Installation & Usage: 
 
 ![](./figures/Flask_webapp_view3.png)
