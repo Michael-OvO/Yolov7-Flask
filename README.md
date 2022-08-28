@@ -15,12 +15,14 @@ A Beautiful Flask Framework for Implementing the Latest Yolov7 Model </h4>
 
 
 <div align="center"><img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white">
-  <img src = "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"></div>
+  <img src = "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
+  <img src = "https://repobeats.axiom.co/api/embed/a081b19ca4f52df2a34a35438450f603046c73fb.svg ">
+</div>
 I developed this API for the purpose of deploying my own Yolov7 model, which is a very accurate skin burn detector. For more information about that project please check out this repo:
 
 https://github.com/Michael-OvO/Burn-Detection-Classification
 
-![Alt](https://repobeats.axiom.co/api/embed/a081b19ca4f52df2a34a35438450f603046c73fb.svg "Repobeats analytics image")
+
 
 ## Installation & Usage: 
 
