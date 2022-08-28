@@ -15,6 +15,7 @@ A Beautiful Flask Framework for Implementing the Latest Yolov7 Model </h4>
 
 
 <div align="center"><img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white">
+<br>
   <img src = "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
   <img src = "https://repobeats.axiom.co/api/embed/a081b19ca4f52df2a34a35438450f603046c73fb.svg">
   
