@@ -1,2 +1,5 @@
 
 .DS_Store
+.env
+.pt
+yolov7-e6e.pt

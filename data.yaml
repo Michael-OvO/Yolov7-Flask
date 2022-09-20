@@ -1,0 +1,24 @@
+names:
+- African_hunting_dog
+- Chihuahua
+- Lhasa
+- Pembroke
+- Pomeranian
+- Saint_Bernard
+- Yorkshire_terrier
+- basset
+- beagle
+- borzoi
+- boxer
+- chow
+- collie
+- dingo
+- golden_retriever
+- malamute
+- malinois
+- papillon
+- pug
+- standard_schnauzer
+nc: 20
+train: Doggos-1/train/images
+val: Doggos-1/valid/images
